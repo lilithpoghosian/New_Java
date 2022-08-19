@@ -29,6 +29,7 @@
             boolean BBB = false;
             System.out.println(AAA);
             System.out.println(BBB);
+            System.out.println(BBB);
 
             char SS= '?';
             System.out.println(SS);
