@@ -12,22 +12,22 @@ public class Operations {
 
         int A = 7, B = 5;
         int C;
-        System.out.println(A+B);
-        System.out.println(C=A-B);
+        System.out.println(A + B);
+        System.out.println(C = A - B);
 
-        System.out.println(A*B);
+        System.out.println(A * B);
 
         //Division for the irrational number
-        System.out.println(A/B);
-        System.out.println(A%B);
+        System.out.println(A / B);
+        System.out.println(A % B);
 
         //Division for the rational number
 
         double D = 7.0, E = 5.0;
-        System.out.println(D/E);
-        System.out.println(D%E);
+        System.out.println(D / E);
+        System.out.println(D % E);
 
-        int y , c;
+        int y, c;
         int x = 5;
         x++;
         x = x + 1;
@@ -53,23 +53,24 @@ public class Operations {
 
         //Logical Operations
 
-        x= 10;
-        System.out.println(x >=1 || x<=9);
+        x = 10;
+        System.out.println(x >= 1 || x <= 9);
 
-        boolean VV = x >100 || x <9;
+        boolean VV = x > 100 || x < 9;
 
         System.out.println(VV);
-        x=6;
-        System.out.println(x>5 || x<7);
+        x = 6;
+        System.out.println(x > 5 || x < 7);
 
-        System.out.println(5&5);
-        System.out.println(17&24);
+        System.out.println(5 & 5);
+        System.out.println(17 & 24);
 
         x = 10;
-        x+= 4;
+        x += 4;
         System.out.println(x);
         x &= 9;
         System.out.println(x);
+        System.out.println(85&25);
 
     }
 }
